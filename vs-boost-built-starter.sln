@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.27130.2027
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "vs-boost-built-starter", "vs-boost-built-starter\vs-boost-built-starter.vcxproj", "{8852754A-6B1C-4696-9185-76504528C675}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "vs-boost-nuget-starter", "vs-boost-nuget-starter\vs-boost-nuget-starter.vcxproj", "{E2C90C9F-17F0-46AE-9D66-6945FD68DABB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -21,6 +23,14 @@ Global
 		{8852754A-6B1C-4696-9185-76504528C675}.Release|x64.Build.0 = Release|x64
 		{8852754A-6B1C-4696-9185-76504528C675}.Release|x86.ActiveCfg = Release|Win32
 		{8852754A-6B1C-4696-9185-76504528C675}.Release|x86.Build.0 = Release|Win32
+		{E2C90C9F-17F0-46AE-9D66-6945FD68DABB}.Debug|x64.ActiveCfg = Debug|x64
+		{E2C90C9F-17F0-46AE-9D66-6945FD68DABB}.Debug|x64.Build.0 = Debug|x64
+		{E2C90C9F-17F0-46AE-9D66-6945FD68DABB}.Debug|x86.ActiveCfg = Debug|Win32
+		{E2C90C9F-17F0-46AE-9D66-6945FD68DABB}.Debug|x86.Build.0 = Debug|Win32
+		{E2C90C9F-17F0-46AE-9D66-6945FD68DABB}.Release|x64.ActiveCfg = Release|x64
+		{E2C90C9F-17F0-46AE-9D66-6945FD68DABB}.Release|x64.Build.0 = Release|x64
+		{E2C90C9F-17F0-46AE-9D66-6945FD68DABB}.Release|x86.ActiveCfg = Release|Win32
+		{E2C90C9F-17F0-46AE-9D66-6945FD68DABB}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

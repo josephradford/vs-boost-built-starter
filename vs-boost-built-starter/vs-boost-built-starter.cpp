@@ -5,9 +5,12 @@
 #include <boost/regex.hpp>
 #include <iostream>
 #include <string>
+#include "imageobject.h"
 
 int main()
 {
+	ImageObject *imObject = new ImageObject("file");
+
     std::string line;
     boost::regex pat( "^Subject: (Re: |Aw: )*(.*)" );
 
